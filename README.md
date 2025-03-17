@@ -67,21 +67,17 @@ ByteNode is a Django-based distributed file storage system that leverages IPFS (
 
 Below is a table with some sample screenshots to give you a quick visual overview of ByteNode’s interface and features.
 Replace the screenshot paths and descriptions with your own to suit your actual setup.
-
-| Screenshot                                                                                      | Description                                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Image](https://github.com/user-attachments/assets/1a619667-28f3-4781-9214-b7b6d1474286)                                               | **Login Page**<br>Users can sign in with their credentials. This page leverages Django’s authentication system for secure access.                                                |
-|    ![Image](https://github.com/user-attachments/assets/fa70beb1-7afc-4fc7-9761-a3026bb64cca)                               | **Admin Dashboard**<br>Admins can monitor system status, view statistics, and manage core configurations.                                                                        |
-| !![127 0 0 1_8000_files_](https://github.com/user-attachments/assets/9c5126cd-85c5-46cf-a86a-a96cd8d94d47)
-                                | **File Management**<br>View, upload, and manage files. Displays chunk details and metadata for easy tracking.                                                                    |
-|![Image](https://github.com/user-attachments/assets/aeea33d5-91a7-431e-a99a-2d5d090d2033)                                    | **Node Management**<br>Oversee all connected IPFS nodes, check their status, and configure settings as needed for optimal performance.                                          |
-| ![Image](https://github.com/user-attachments/assets/fa70beb1-7afc-4fc7-9761-a3026bb64cca)                                          | **Health Check**<br>Run manual or scheduled integrity checks. This ensures all file chunks are available and nodes are functioning properly.                                     |
-| ![Image](https://github.com/user-attachments/assets/ed1fdc69-07d9-4b90-bd17-3d1e4c64fb3e)                              | **Chunk Distribution**<br>Visual representation of how file chunks are distributed across multiple IPFS nodes for redundancy and fault tolerance.                                |
-| ![Image](https://github.com/user-attachments/assets/123e2dec-566b-4460-bb43-e8bfec81c942)                                      | **Load Balancing**<br>Automatic rebalancing helps distribute chunks to ensure no single node becomes overloaded.
-| ![Image](https://github.com/user-attachments/assets/a30a1964-54a3-45f1-acaf-9ae42c804408)                        | **Node Diagnose** <br> user can add, remove or check their nodes here. 
-| ![Image](https://github.com/user-attachments/assets/6156303f-9c57-4657-b079-88737e089243)                        | **Upload file **<br>user can upload any files from their local machine and it will be uploaded, divided in chunks and distributed in different nodes. |
-
----
+| Screenshot                                                                                                      | Description                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Image](https://github.com/user-attachments/assets/1a619667-28f3-4781-9214-b7b6d1474286)                       | **Login Page**<br>Users can sign in with their credentials. This page leverages Django’s authentication system for secure access.                                   |
+| ![Image](https://github.com/user-attachments/assets/fa70beb1-7afc-4fc7-9761-a3026bb64cca)                       | **Admin Dashboard**<br>Admins can monitor system status, view statistics, and manage core configurations.                                                           |
+| ![Image](https://github.com/user-attachments/assets/9c5126cd-85c5-46cf-a86a-a96cd8d94d47)                       | **File Management**<br>View, upload, and manage files. Displays chunk details and metadata for easy tracking.                                                       |
+| ![Image](https://github.com/user-attachments/assets/aeea33d5-91a7-431e-a99a-2d5d090d2033)                       | **Node Management**<br>Oversee all connected IPFS nodes, check their status, and configure settings as needed for optimal performance.                             |
+| ![Image](https://github.com/user-attachments/assets/fa70beb1-7afc-4fc7-9761-a3026bb64cca)                       | **Health Check**<br>Run manual or scheduled integrity checks. This ensures all file chunks are available and nodes are functioning properly.                        |
+| ![Image](https://github.com/user-attachments/assets/ed1fdc69-07d9-4b90-bd17-3d1e4c64fb3e)                       | **Chunk Distribution**<br>Visual representation of how file chunks are distributed across multiple IPFS nodes for redundancy and fault tolerance.                  |
+| ![Image](https://github.com/user-attachments/assets/123e2dec-566b-4460-bb43-e8bfec81c942)                       | **Load Balancing**<br>Automatic rebalancing helps distribute chunks to ensure no single node becomes overloaded.                                                   |
+| ![Image](https://github.com/user-attachments/assets/a30a1964-54a3-45f1-acaf-9ae42c804408)                       | **Node Diagnose**<br>Users can add, remove, or check their nodes here.                                                                                             |
+| ![Image](https://github.com/user-attachments/assets/6156303f-9c57-4657-b079-88737e089243)                       | **Upload File**<br>Users can upload any files from their local machine. The file will be divided into chunks and distributed to different nodes for redundancy.    |
 
 ## Admin Capabilities
 
