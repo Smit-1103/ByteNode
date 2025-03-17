@@ -79,6 +79,17 @@ Replace the screenshot paths and descriptions with your own to suit your actual 
 | ![Image](https://github.com/user-attachments/assets/a30a1964-54a3-45f1-acaf-9ae42c804408)                       | **Node Diagnose**<br>Users can add, remove, or check their nodes here.                                                                                             |
 | ![Image](https://github.com/user-attachments/assets/6156303f-9c57-4657-b079-88737e089243)                       | **Upload File**<br>Users can upload any files from their local machine. The file will be divided into chunks and distributed to different nodes for redundancy.    |
 
+
+## Demo Video
+
+For a hands-on walkthrough of ByteNode’s features and usage, check out the **[Demo Video](https://github.com/user-attachments/assets/9388e4e9-8c8a-447b-a070-9605086e7e5a)**.  
+This video covers:
+- Installation & setup
+- File upload and chunk distribution
+- Monitoring system health
+- Troubleshooting common issues
+
+---
 ## Admin Capabilities
 
 Administrators have access to powerful management tools that streamline maintenance and ensure system reliability:
