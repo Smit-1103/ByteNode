@@ -111,6 +111,9 @@ Administrators have access to powerful management tools that streamline maintena
 
 ---
 
+For instructions on how to set up and start this project, please refer to our 
+[Setup Instructions](setup.md).
+
 ## Automated Maintenance
 
 ByteNode includes built-in maintenance commands to ensure system health:
