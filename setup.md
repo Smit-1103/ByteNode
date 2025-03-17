@@ -16,7 +16,7 @@ Before starting, ensure you have the following installed on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Smit-1103/byteNode.git
+git clone https://github.com/Smit-1103/ByteNode.git
 cd byteNode
 ```
 
